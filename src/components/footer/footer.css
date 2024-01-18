@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&family=Lora:ital@1&family=Roboto+Slab:wght@300;400;500&display=swap');
+  footer{
+    background-color:rgb(49, 49, 145);
+    margin-top: 7rem;
+    text-align: center;
+    padding: 3rem 0;
+}
+.footer_logo{
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif; 
+    font-weight: 500;
+    /* display: inline-block; */
+    color:var(--color-bg);
+}
+.footer_links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.abc{
+    padding: 2rem;
+    cursor: pointer;
+}
+
+.text{
+    color:var(--color-bg);
+}
+ .footer-socials {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+ }  
+
+ .footer-socials a{
+    background-color: rgb(22, 22, 22);
+    color: white;
+    padding: .5rem;
+    /* margin: 1rem; */
+    border-radius: .4rem;
+    border: 1px solid transparent;
+    display: flex;
+ }
+ .footer-socials a:hover{
+    background-color: var(--color-bg);
+ }
+ @media screen and (max-width:600px){
+    .footer_links{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+    
+    }
+}
